@@ -3,8 +3,9 @@
 *******************************************************************************
 1. Install git and update its path in the environment variables.
 2. Install cmake-3.18.4-win64-x64 and in the options select "Add Cmake to system PATH for all users/the current user" and install it in the default directory.
-3. Install MinGW from http://www.mingw.org/ in the default directory: Mark all of the packages for basic toolchain and C++ and apply changes.
-4. Add "<MinGW installation folder>\bin" to the System environment variables.
-5. Create a folder where you'd want to checkout the code base and all its dependencies.
-6. Move the "install_windows.cmd" into the folder.
-7. Right click on the file and select "Run as administrator"
+3. Install MinGW-w64 from http://mingw-w64.org/doku.php/download in the default directory: Select x86_x64 architecture and leave all other options the same.
+4. Add "<MinGW-w64 installation folder>\mingw64\bin" to the System environment variables.
+5. Add <Visual Studio installation folder>\2019\Community\VC\Tools\MSVC\14.27.29110\bin\Hostx64\x64 to System environment variables(ex: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\bin\Hostx64\x64)
+6. Create a folder where you'd want to checkout the code base and all its dependencies.
+7. Move the "install_windows.cmd" into the folder.
+8. Right click on the file and select "Run as administrator"
