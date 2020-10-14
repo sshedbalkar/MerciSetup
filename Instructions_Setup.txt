@@ -1,0 +1,8 @@
+Run instructions
+================
+1. Install git and update its path in the environment variables.
+2. Install cmake-3.18.4-win64-x64 and in the options select "Add Cmake to system PATH for all users/the current user" and install it in the default directory.
+3. Install MinGW from http://www.mingw.org/ : Mark all of the packages for basic toolchain and C++ and apply changes.
+4. Create a folder where you'd want to checkout the code base.
+5. Move the "install.bat" into the folder.
+6. Right click on the file and select "Run as administrator"
